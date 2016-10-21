@@ -1,6 +1,6 @@
 {
   "name": "webpack-jasmine-flight",
-  "version": "5.1.0",
+  "version": "6.0.0-rc.1",
   "main": "lib/jasmine-flight.js",
   "files": [
     "lib/jasmine-flight.js"
