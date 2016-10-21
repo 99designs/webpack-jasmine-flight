@@ -1,7 +1,7 @@
 define(function (require) {
   'use strict';
 
-  var defineComponent = require('flight/lib/component');
+  var defineComponent = require('flightjs').component;
 
   function Example() {
     this.attributes({
