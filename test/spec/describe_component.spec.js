@@ -6,7 +6,7 @@ define(function (require) {
   // we can't assume a shared instance across require() calls in webpack
   var isWebpack = (typeof require.include === 'function');
 
-  var defineComponent = require('flight/lib/component');
+  var defineComponent = require('flightjs').component;
   var Example = require('mock/example');
 
   describeComponent(Example, function () {

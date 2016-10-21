@@ -3,7 +3,7 @@
 define(function (require) {
   'use strict';
 
-  var defineComponent = require('flight/lib/component');
+  var defineComponent = require('flight').component;
   var mixin = require('mock/example_mixin');
   console.log(mixin);
 

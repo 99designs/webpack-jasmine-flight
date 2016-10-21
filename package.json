@@ -6,16 +6,17 @@
     "lib/jasmine-flight.js"
   ],
   "devDependencies": {
+    "flightjs": "^1.5.1",
     "karma": "~0.12.6",
-    "karma-cli": "~0.0.4",
-    "karma-jasmine": "~0.2.0",
-    "requirejs": "^2.1.14",
-    "karma-requirejs": "~0.2.2",
     "karma-chrome-launcher": "~0.1.4",
+    "karma-cli": "~0.0.4",
     "karma-firefox-launcher": "~0.1.3",
+    "karma-jasmine": "~0.2.0",
+    "karma-requirejs": "~0.2.2",
+    "karma-webpack": "~1.3.1",
+    "requirejs": "^2.1.14",
     "webpack": "~1.4.13",
-    "webpack-dev-server": "~1.6.6",
-    "karma-webpack": "~1.3.1"
+    "webpack-dev-server": "~1.6.6"
   },
   "scripts": {
     "test": "karma start --single-run",
